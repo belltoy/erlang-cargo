@@ -1,12 +1,17 @@
 {application,cargo,
              [{description,"Erlang wrapper for Rust's cargo build tool"},
-              {vsn,"0.1.2"},
+              {vsn,"0.1.3-rc.1"},
               {registered,[]},
               {applications,[kernel,stdlib,jsx]},
               {env,[]},
               {modules,[]},
+              {pkg_name, "my_cargo"},
               {build_tools,["rebar3","mix"]},
               {include_files,["mix.exs"]},
               {licenses,["Apache-2.0","MIT"]},
-              {links,[{"Github",
-                       "https://github.com/rusterlium/erlang-cargo"}]}]}.
+              {links,[
+                      {"Github",
+                       "https://github.com/rusterlium/erlang-cargo"},
+                      {"My Fork",
+                      "https://github.com/belltoy/erlang-cargo"}
+                     ]}]}.
